@@ -7,16 +7,12 @@ const TodoForm = ({ addTodo }) => {
     const submit = (e) => {
         e.preventDefault();
         if (!value || !category) return;
-        
-        
-
+    
         addTodo({
             text: value,
             category: category,
             isCompleted: false
-        },
-        window.location.reload()
-        );
+        });
 
         setCategory("");
         setValue("");
