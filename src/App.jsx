@@ -9,7 +9,7 @@ function App() {
   const [search, setSearch] = useState("")
 
   useEffect(() => {
-    fetch("http://localhost:3000/todos",{
+    fetch("https://monkfish-app-3stt6.ondigitalocean.app/todos",{
       method: "GET",
       headers:{
         'Content-Type': 'application/json',
@@ -24,7 +24,7 @@ function App() {
 
   function addTodo(newTodo) {
     console.log(newTodo)
-    fetch("http://localhost:3000/todos",{
+    fetch("https://monkfish-app-3stt6.ondigitalocean.app/todos",{
         method: 'POST',
         headers:{
           'Content-type': 'application/json',
@@ -40,7 +40,7 @@ function App() {
   }
   
   const removeTodo = (id) => { 
-    fetch(`http://localhost:3000/todos/${id}`,{
+    fetch(`https://monkfish-app-3stt6.ondigitalocean.app/todos/${id}`,{
       method: "DELETE",
       headers:{
         'Content-Type': 'application/json',
@@ -59,7 +59,7 @@ function App() {
       isCompleted: !currentIsCompleted
     }
 
-    fetch(`http://localhost:3000/todos/${id}`,{
+    fetch(`https://monkfish-app-3stt6.ondigitalocean.app/todos/${id}`,{
       method: 'PATCH',
       headers:{
         'Content-Type': 'application/json',

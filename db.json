@@ -1,3 +1,64 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "text": "asdasd",
+      "category": "Estudos",
+      "isCompleted": false,
+      "id": 4
+    },
+    {
+      "text": "asdasda",
+      "category": "Estudos",
+      "isCompleted": false,
+      "id": 5
+    },
+    {
+      "text": "dasdadad",
+      "category": "Trabalho",
+      "isCompleted": false,
+      "id": 9
+    },
+    {
+      "text": "comer a mozi",
+      "category": "Estudos",
+      "isCompleted": false,
+      "id": 10
+    },
+    {
+      "text": "comer comida",
+      "category": "Estudos",
+      "isCompleted": false,
+      "id": 11
+    },
+    {
+      "text": "comer jacare",
+      "category": "Estudos",
+      "isCompleted": false,
+      "id": 12
+    },
+    {
+      "text": "comer janta",
+      "category": "Faculdade",
+      "isCompleted": false,
+      "id": 13
+    },
+    {
+      "text": "comer abacate",
+      "category": "Estudos",
+      "isCompleted": false,
+      "id": 14
+    },
+    {
+      "text": "comer almoço",
+      "category": "Faculdade",
+      "isCompleted": false,
+      "id": 15
+    },
+    {
+      "text": "awdawdawd",
+      "category": "Estudos",
+      "isCompleted": false,
+      "id": 16
+    }
+  ]
 }
