@@ -14,8 +14,9 @@ const TodoForm = ({ addTodo }) => {
             isCompleted: false
         });
 
-        setCategory("");
-        setValue("");
+        setTimeout(()=>{
+            window.location.reload()
+        },1200)
         
     }
 

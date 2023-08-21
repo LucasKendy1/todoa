@@ -35,7 +35,7 @@ function App() {
         resp => resp.json())
     .then((data) => {
         console.log(data)
-        window.location.reload()
+        
     })
     ).catch(err => console.log(err))
   }
