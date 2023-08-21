@@ -10,6 +10,7 @@ function App() {
 
   useEffect(() => {
     fetch("https://monkfish-app-3stt6.ondigitalocean.app/todos",{
+      
       method: "GET",
       headers:{
         'Content-Type': 'application/json',

@@ -15,6 +15,7 @@ const Todo = ({todo, removeTodo, completeTodo}) => {
       removeTodo(todo.id)
     },1000)
   }
+  
   return (
     <div className={styles.containerTodo} style={
       {textDecoration: todo.isCompleted ? "line-through" : ""}

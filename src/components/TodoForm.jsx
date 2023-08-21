@@ -8,13 +8,15 @@ const TodoForm = ({ addTodo }) => {
         e.preventDefault();
         if (!value || !category) return;
         
-        window.location.reload()
+        
 
         addTodo({
             text: value,
             category: category,
             isCompleted: false
-        });
+        },
+        window.location.reload()
+        );
 
         setCategory("");
         setValue("");
