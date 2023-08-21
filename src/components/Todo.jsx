@@ -28,7 +28,7 @@ const Todo = ({todo, removeTodo, completeTodo}) => {
 
         <div className={styles.buttons}>
           <button onClick={() => completeTodo(todo.id, todo.isCompleted)} className={styles.complete}>
-            <img src="../comentar-alt-check.png" alt="check" width="20px"/>
+            <img src="https://cdn-icons-png.flaticon.com/512/4436/4436481.png" alt="check" width="20px"/>
           </button>
           <button onClick={remove} className={styles.delete}>x</button>
         </div>
